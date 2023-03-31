@@ -1,0 +1,7 @@
+applications:
+  - name: zvz_cfapp
+    path: .
+    buildpacks:
+      - staticfile_buildpack
+    memory: 256M
+    random-route: true
